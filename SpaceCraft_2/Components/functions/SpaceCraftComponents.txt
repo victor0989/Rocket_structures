@@ -1,0 +1,20 @@
+ Blender’s BMesh module to manipulate a box into a final spaceship. Here’s the basic algorithm:
+
+Start with a box.
+Build the hull: Extrude the front/rear faces several times, adding random translation/scaling/rotation along the way.
+Add asymmetry to the hull: Pick random faces and extrude them out in a similar manner, reducing in scale each time.
+Add detail to the hull: Categorize each face by its orientation and generate details on it such as engines, antenna, weapon turrets, lights etc.
+Sometimes apply horizontal symmetry.
+Add a Bevel modifier to angularize the shape a bit.
+Apply materials to the final result.
+Take over the universe with your new infinite fleet of spaceships.
+
+
+Start with a box.
+Build the hull: Extrude the front/rear faces several times, adding random translation/scaling/rotation along the way.
+Add asymmetry to the hull: Pick random faces and extrude them out in a similar manner, reducing in scale each time.
+Add detail to the hull: Categorize each face by its orientation and generate details on it such as engines, antenna, weapon turrets, lights etc.
+Sometimes apply horizontal symmetry.
+Add a Bevel modifier to angularize the shape a bit.
+Apply materials to the final result.
+Take over the universe with your new infinite fleet of spaceships.
