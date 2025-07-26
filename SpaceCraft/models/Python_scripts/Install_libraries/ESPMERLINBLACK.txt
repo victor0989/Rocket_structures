@@ -1,0 +1,20 @@
+The advanced spacecraft concept based on Frolov’s vacuum solutions and
+Penrose holes focuses on manipulating gravitational fields for propulsion.
+It relies on complex mathematical frameworks such as the Kerr metric, Penrose metric,
+and Newman-Penrose formalism to describe the spacecraft’s motion and spacetime geometry.
+The design includes a rotating, charged mass distribution, a gravitational field generator,
+ and a propulsion system inspired by Penrose holes. Prototype development is staged around testing the gravitational field generator, propulsion system, and system integration. This approach is highly theoretical and aims at revolutionizing space travel by exploiting gravity and exotic spacetime phenomena, requiring deep advances in physics and engineering.
+
+In contrast, the SpaceX Merlin engines and the Galileo spacecraft subsystems
+represent mature, practical engineering implementations. Merlin engines (versions 1A, 1B, and 1C) are liquid-fueled rocket engines using RP-1 and liquid oxygen, featuring progressively improved turbopumps, combustion cycles, thrust, and cooling methods. Their design is focused on reliability,
+thrust-to-weight optimization, and efficient combustion to power Falcon rockets.
+
+The Galileo spacecraft comprises well-established subsystems:
+command and data handling with redundant buses and multiple modules; propulsion with a main engine and thrusters; power generation via radioisotope thermoelectric generators; high-gain and low-gain antennas for communication; and an array of scientific instruments to study Jupiter. It also includes deployable structures like solar arrays and booms for stabilization and scientific payload deployment.
+
+While the advanced concept deals with
+manipulating gravity and exotic physics to achieve propulsion beyond current capabilities,
+the Merlin engines and Galileo spacecraft are grounded in proven aerospace technology,
+focusing on chemical propulsion, subsystem redundancy, and scientific mission support.
+The former is theoretical and future-looking, whereas the latter represents current
+state-of-the-art engineering in space exploration.

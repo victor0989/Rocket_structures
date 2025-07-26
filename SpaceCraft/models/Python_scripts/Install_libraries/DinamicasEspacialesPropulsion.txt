@@ -1,0 +1,23 @@
+Propulsión y Dinámicas Espaciales
+Propulsión Binaria Torsional
+Naves espaciales generan campos torsionales
+𝑇
+𝜇
+𝜈
+T
+μν
+​
+  que interactúan con la métrica
+𝑔
+𝜇
+𝜈
+g
+μν
+​
+  para crear desplazamientos sin masa, mediante “trenzados iónicos”.
+
+Interacción con Penrose-Hole
+La estructura Penrose-Hole en el mapa actúa como un punto de anclaje métrico que induce lentes gravitacionales triangulares deformantes, permitiendo salto entre capas topológicas.
+
+Ondas Gravitacionales Reversas
+Las estrellas aniónicas emiten ondas de gravedad con signo inverso, que fragmentan la luz y el tiempo en “burbujas temporales discontinuas”.

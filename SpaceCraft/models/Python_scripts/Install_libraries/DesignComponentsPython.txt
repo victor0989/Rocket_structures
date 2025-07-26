@@ -1,0 +1,148 @@
+JET ENGINE COMPONENTS
+1. Diffuser           - Slows down airflow and increases pressure.
+2. Compressor         - Increases air pressure via energy transfer from turbine.
+3. Combustion Chamber - Location of air-fuel combustion.
+4. Turbine            - Converts thermal energy to mechanical energy.
+5. Nozzle             - Accelerates exhaust gases for thrust.
+
+SPACECRAFT COMPONENTS
+1. Jet Engines        - Provide thrust.
+2. Fuel System        - Stores/supplies fuel.
+3. Control System     - Regulates engines/operations.
+
+PLASMA & BLACK HOLE METRICS
+1. Frolov Metrics     - Spacetime near black holes.
+2. Schwarzschild      - Spherical black holes.
+3. Kerr               - Rotating black holes.
+
+TURBINE & NOZZLE DESIGN
+1. Turbine CAD Design - Precision modeling in CAD.
+2. Nozzle CAD Design  - CAD-based nozzle optimization.
+
+PROPULSION MATERIALS
+1. Fuel & Oxidizers   - Generate thrust.
+2. Plasma Propulsion  - Plasma-based systems.
+
+BLACK HOLE RESEARCH
+1. Spacetime Symmetries
+2. Plasma Tensor Converter - Analyzes plasma-black hole interactions.
+
+------------------------------------------------
+
+MATERIALS & SYSTEMS: SOLAR PARKER PROBE (SPP)
+---------------------------------------------
+• Launch Mass: 685 kg
+• Dimensions:
+  - Height: 3 m
+  - TPS Diameter: 2.3 m
+  - Bus Diameter: 1 m
+• C–C Thermal Protection System
+• Bus: Hexagonal prism
+• Solar Arrays:
+  - Active, water-cooled
+  - Output: ~364 W at closest approach
+  - Area: 1.54 m²; Radiator: 4.0 m²
+• Comms: 0.6 m HGA, 34W Ka-band, DL rate 163 kbps @ 1 AU
+
+THERMAL CONTROL SYSTEM (SACS)
+-----------------------------
+• Heat dissipation: 6400 W at 9.86 Rs
+• Liquid Cooling Loop (Redundant Pump/Electronics)
+• Temp Ranges:
+  - Operative: +20°C to +150°C
+  - Survival: +10°C to +190°C (wet), -80°C to -130°C (dry)
+• Activation:
+  - Prelaunch: Accumulator heated to 40–50°C
+  - Radiators 2 & 3 active at 0.89 AU (Day 41)
+
+Key Components:
+• Accumulator (non-redundant)
+• Pump Electronics (block redundant)
+• Platens, Radiators, Valves
+• Thermal Simulation & Testing (C1/C2 configs)
+
+THERMAL TESTING
+---------------
+• C-1 Hot B6 (No TPS): Max 125°C, MLI fin in place
+• C-2 Hot C6 (TPS at 300°C): Confirms TPS heat load
+• C-1 Cold A2/B2: Validates minimum load at 1.02 AU
+• Critical Cases: R23, Eclipse, Post-launch warm-up
+• Data gathered to calibrate thermal model across mission phases
+
+------------------------------------------------
+
+CALCULATIONS: COMPRESSOR STAGES
+-------------------------------
+Centrifugal Compressor:
+-----------------------
+INLET:
+C1 = 150 m/s; W1 = 250 m/s; U1 = 200 m/s
+OUTLET:
+C2 = 390 m/s; W2 = 150 m/s; U2 = 350 m/s
+β2 = Flow angle; β2’ = β2 + 5°
+
+(a) Impeller Type:
+    Based on velocity triangle, calculate β2.
+    If β2 < 90° → Forward-curved
+       β2 = 90° → Radial
+       β2 > 90° → Backward-curved
+
+(b) Slip Factor (σ):
+    Use empirical models (Stodola, Wiesner) or:
+    σ = 1 - (Cθ2 / U2)
+
+(c) Stage Temperature Rise (ΔT0):
+    ΔT0 = (U2 * Cθ2 - U1 * Cθ1) / cp
+
+Turboprop Dual Compressor System:
+---------------------------------
+• Given:
+  - T01 = 288 K; P01 = 101 kPa
+  - π1 = 3; σ1 = 0.94; η1 = 0.86; ψ1 = 1.04
+  - D1t = 0.5 m; D2 = 0.8 m
+  - ξinlet = 0.65; M1rel = 1.0
+
+1. Mass Flow Rate (ṁ):
+   ṁ = ρ * A * C1 = (P01 / RT01) * A * C1
+
+2. Inlet Velocity (C1):
+   C1 = √(2 * cp * ΔT01)
+
+3. Rotational Speed (N):
+   U1 = π * D1 * N → N = U1 / (π * D1)
+
+4. Compressor Power:
+   P = ṁ * cp * ΔT0
+
+AXIAL COMPRESSOR RELATIONS:
+----------------------------
+tan(α1) = [(1 - Λ) - ψ/2] / φ
+tan(α2) = [(1 - Λ) + ψ/2] / φ
+tan(β1) = (Λ + ψ/2) / φ
+tan(β2) = (Λ - ψ/2) / φ
+
+Temperature Rise Comparisons:
+-----------------------------
+Axial:
+(C1/U)^2 = [(1 - Λ - ψ/2)^2 + φ^2]
+Centrifugal:
+ΔT0_axial / ΔT0_centrifugal = (Um/U2)^2
+
+If Um = U2 ⇒ ΔT0_axial / ΔT0_centrifugal = rm / r2
+
+DEGREE OF REACTION (Λ):
+------------------------
+Λ = 1 - (φ² * A² * sec²α2 * sec²α1) / (AB * tanα2 * tanα1)
+
+------------------------------------------------
+
+APPLICATION: RADIATION-RESISTANT MATERIALS (SPP)
+------------------------------------------------
+• Primary Shielding Material: Carbon–Carbon composite (C–C)
+• Heat Shield (TPS): Ablative, layered for radiation protection
+• Cooling Fluids: Water-based system with high latent heat
+• High-temp MLI: Multi-Layer Insulation with aluminum/Mylar
+• Key Design Constraint: Heat flux + radiation near perihelion (9.86 Rs)
+• Redundant Sensors/Control logic for thermal monitoring
+
+------------------------------------------------

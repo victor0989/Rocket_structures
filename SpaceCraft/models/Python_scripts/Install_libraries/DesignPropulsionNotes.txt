@@ -1,0 +1,30 @@
+Start and Shutdown Sequence (Example: RS-25 / SSME):
+
+Complex engine with a stepped combustion cycle and liquid head start. It uses 4 turbopumps (TP), 2 preburners, and a main combustion chamber (MCC).
+Before start, the TP and ducts are cooled with liquid hydrogen and LOX to cryogenic temperatures.
+
+Upon receiving the start command:
+The main fuel valve (MFV) opens.
+Three oxidizer valves open:
+
+The FPOV opens to 56% to initiate ignition in the fuel preburner (FPB).
+The OPOV and MOV then open to ignite the oxidizer preburner (OPB) and the MCC.
+
+At 1.4 s, the FPB prime occurs: it fills the system upstream of the injectors with LOX.
+At 1.24 s, the high-pressure fuel TP (HPFTP) velocity is checked.
+At 1.5 s, the MCC prime occurs. If it is too early or slow, there may be:
+
+Unwanted fuel evaporation.
+Lean or rich mixtures, excessive heat, and risk of internal burns.
+The OPB prime occurs late (1.6 s), with a strong fuel presence to prevent burns.
+At 2 s, the valves are adjusted to 25% of the rated power level.
+Between 2 and 2.4 s: open control mode, then closed with MCC pressure control.
+
+At 3.6 s, closed mixture ratio control/FPOV is activated.
+Cooling System:
+The CCV valve opens at startup and adjusts the coolant fuel flow to:
+Nozzle
+Chamber
+Preburners
+Ignition:
+Each injector (MCC, FPB, OPB) contains spark-activated igniters, using the same propellants.
