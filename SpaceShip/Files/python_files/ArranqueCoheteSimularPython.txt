@@ -1,0 +1,27 @@
+Métodos de Arranque de Motores Cohete:
+
+Cartucho de encendido:
+Se encienden los propelentes en el generador de gas. Es el método más rápido, pero no permite reinicios.
+
+Arranque por presión de tanque (usado en el SSME):
+Más lento, no requiere cartucho, y permite reinicios. Se usa la “cabeza líquida” desde los tanques del vehículo y la presión del tanque para provocar un flujo inicial. A medida que opera la turbina, se aumenta la presión gradualmente hasta alcanzar valores nominales.
+
+Sistema auxiliar presurizado:
+Usa tanques propios de propelente presurizado para alimentar una cantidad inicial de combustible y oxidante a la cámara de empuje y al generador de gas. Usado en una versión del RS-27 (Delta II).
+
+Método de turbina giratoria:
+Usa gas almacenado a alta presión para girar la turbina a velocidad parcial hasta que el motor genera gases calientes por sí solo. Es usado en el RS-68, donde el tanque de helio está en tierra.
+
+Simplified Example
+Variables:
+
+m vehicle mass (kg)
+F_conv conventional propulsion force (N)
+F_grav additional force from the gravity motor (N)
+v speed (m/s)
+t time (s)
+fuel consumption (kg or liters)
+
+Assumptions:
+Fuel consumption is proportional to the conventional force applied.
+The gravity motor helps reduce the conventional force required to maintain or accelerate.

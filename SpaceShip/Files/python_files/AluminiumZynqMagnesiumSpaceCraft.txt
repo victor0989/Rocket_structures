@@ -1,0 +1,14 @@
+| Metal | Shrinkage (%) | Expansion (%) |
+| ----------------- | --------------- | -------------- |
+| Aluminum | 7.1 | - |
+| Zinc | 6.5 | - |
+| Al-4.5% Cu | 6.3 | - |
+| Gold | 5.5 | - |
+| White iron | 4–5.5 | - |
+| Copper | 4.9 | - |
+| Bronze (70–30) | 4.5 | - |
+| Magnesium | 4.2 | - |
+| Carbon steels | 2.5–4 | - |
+| Lead | 3.8 | - |
+| Silicon | 2.9 | - |
+| Gray iron | *Expands* (≈2.5) | Yes |
