@@ -1,0 +1,27 @@
+Merlin 1A
+The Merlin 1A was the initial SpaceX engine version, featuring an ablatively cooled carbon-fiber composite nozzle and producing 340 kN thrust. It flew twice: once in 2006 (failed due to fuel leak) and in 2007 (successful). Its turbopump, designed by Barber-Nichols, used a unique friction-welded shaft, Inconel ends, and an aluminum impeller, with a turbine running up to 20,000 rpm.
+
+Merlin 1B
+An upgraded Merlin 1A with enhanced turbopump power (1,900 kW vs. 1,500 kW) through full admission turbine and larger impellers. It was designed for Falcon 1 and Falcon 9 with higher thrust (380 kN sea level, 420 kN vacuum) and pyrophoric ignition. Merlin 1B was never flown, replaced by the regeneratively cooled Merlin 1C.
+
+Merlin 1C
+A regeneratively cooled engine used in Falcon 1 and Falcon 9. It produces 420 kN at sea level and 480 kN in vacuum, with high specific impulse (~275 s sea level, 305 s vacuum), chamber pressure ~6.77 MPa, and a thrust-to-weight ratio of 96. It weighs 630 kg and is 2.92 m long.
+
+Galileo Spacecraft Subsystems
+- Command and Data Handling: redundant buses, decodes commands, manages telemetry.
+- Propulsion: one 400 N main engine, twelve 10 N thrusters, propellant tanks.
+- Electrical Power: two RTGs with Plutonium-238.
+- Telecommunications: high and low-gain antennas.
+- Instruments: scientific payload for studying Jupiter’s atmosphere and magnetosphere.
+- Deployable Structures: folding, sleeve, truss, inflatable types for solar arrays and antennas.
+
+Metrics
+- Spacecraft mass ~3625 kg, diameter 3.5 m, height 2.7 m.
+- Instruments: SSI (29.7 kg, 15 W), NIMS (18 kg, 12 W).
+- Deployable booms: GPX-2 (2 m, 4 kg), NASA DCB (up to 16.5 m, 25% lighter than metal).
+
+Black Hole & Scalar Field Collapse (Theoretical)
+- Studies of spacetime structure near black holes formed by scalar field collapse.
+- Critical collapse shows different global spacetime limits depending on parameters.
+- Numerical simulations use characteristic coordinates tracking light rays.
+- Equations describe scalar field dynamics and metric evolution in spherical symmetry.

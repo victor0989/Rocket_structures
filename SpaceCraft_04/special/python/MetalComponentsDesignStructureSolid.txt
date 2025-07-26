@@ -1,0 +1,52 @@
+Metal Layer and Major Component Design: Structural Design of the MSX Optical Bench
+Materials and Construction:
+
+The gusset plates and the optical bench were constructed with multiple layers of unidirectional tape in a pseudoisotropic stack (0°, 30°, 60°, 90°, 120°, 150°) (S_N).
+Rib core: 12 layers; outer layers: 24 layers.
+Material properties of P75S/ERL1962 are shown in Table 5 (tensile, modulus, Poisson, compressive strength, CTE, etc.).
+
+An indium tin moisture barrier was applied to protect structural stability and minimize moisture contamination of the optical sensors.
+Kinematic Mounting System:
+Mounted with spherical supports providing non-redundant translational support in 1, 2, and 3 directions for three mounting points.
+The mounts are fixed in the center plane of the bench thickness to limit moment transfer and reduce deformations.
+Mounts are made of titanium due to its low coefficient of thermal expansion (CTE) and low thermal conductivity, thermally isolating the optical bench from the instrument section.
+
+Thermal and Mechanical Requirements:
+Must withstand extreme temperatures from -240°C to +60°C.
+Quasistatic load resistance: 212.5 g/+6.5 g in the thrust direction (x), ±6.5 g in the lateral directions (y, z).
+Restrictions on component attachments and lifting points to ensure integrity.
+Stiffness frequency requirement: minimum 100 Hz to avoid dynamic couplings.
+
+Maximum system mass: 6.8 kg.
+Analysis and Testing:
+A finite element model (FEM) was used to analyze loads, natural frequencies, and deformations.
+Fundamental dynamic frequencies: 111 Hz (bending in the thrust direction), 138 Hz (torsion of the stellar chamber plane), 203 Hz (lateral bending).
+Sufficient structural safety margin in most areas; moderate stress levels under load.
+The maximum operational thermal deformation was 1.65 arcsec, including the effects of the lift-off torque on the kinematic mounts (torque limited to minimize impact).
+Thermal analysis showed an average distortion of 2.48 arcsec/°C, slightly higher than the target of 2 arcsec/°C but acceptable for scientific purposes.
+
+Physical Testing:
+Thermal cycling between -240°C and +60°C confirmed the integrity of the adhesive bonds.
+Static load testing with a safety factor of 1.25 showed that the structure withstands damage.
+Pre- and post-static load modal measurements indicated natural frequencies within the expected range (~370 Hz adjusted).
+Additional ±1 g testing to assess structural changes under ground/orbit conditions.
+Beacon Receiver Bench
+Objectives and requirements:
+
+Cooperative target acquisition with an initial uncertainty of ±5° and tracking with a residual error of ±0.1° rms for 5 years in orbit.
+The structure must not contribute more than 0.5° to the initial error and must maintain stability of ±0.03° for four antennas.
+Must operate in a thermal range of -65°C to +15°C and withstand thermal gradients up to 30°C.
+Fundamental frequency between 50 and 65 Hz to avoid dynamic coupling with the primary structure.
+Minimize long-term creep deformations under a preload of 362.8 kg.
+
+Structure and Materials:
+G/E composite bench similar to the optical bench, with pseudoisotropic composite sheets and ribs (0°, 36°, 72°, 108°, 144°).
+Titanium threaded fittings for bolted connections.
+Indium tin metal barrier applied for dimensional stability against moisture.
+Hinge Design and Deployment System:
+Non-magnetic deployment hinge with beryllium copper torsion springs, titanium brackets and shafts, bronze bushings, and stainless steel dampers.
+Functions like an "old-fashioned saloon door": initially deploys and positions the bench within ±0.5° and maintains ±0.01°.
+Torsion dampers prevent overshoot, absorbing kinetic energy and ensuring correct positioning.
+Compensation for differences in CTE between the composite and aluminum instrument housings is provided through internal hinge clearances.
+Launch preload of 362.8 kg secured with a strain-gauge beryllium copper pin.
+The release system uses a pyrotechnic firing pin to trigger pin retraction and enable deployment.

@@ -1,0 +1,161 @@
+| Engine Designation                           | RD-120        | RD-170         | RD-253        |
+| -------------------------------------------- | ------------- | -------------- | ------------- |
+| Turbopump Characteristics                    |               |                |               |
+| Pumped liquid                                | Oxidizer Fuel | Oxidizer Fuel  | Oxidizer Fuel |
+| Pump discharge pressure, kg/cm²              | 347 358       | 614 516        | 282 251       |
+| Flow rate, kg/sec                            | 173 73        | 1792 732       | 384 144       |
+| Impeller diameter, mm                        | 216 235       | 409 405        | 229 288       |
+| Number of stages                             | 1 1           | 1 1+1¹         | 1 1+1¹        |
+| Pump efficiency, %                           | 66 65         | 74 74          | 68 69         |
+| Pump shaft power, hp                         | 11,210 6,145  | 175,600 77,760 | 16,150 8,850  |
+| Required pump NPSH, m                        | 37 23         | 260 118        | 45 38         |
+| Shaft speed, rpm                             | 19,230 13,850 | 13,855         | —             |
+| Pump impeller type                           | Radial flow   | Radial flow    | Radial flow   |
+| Turbine power, hp                            | 17,588        | 257,360        | 25,490        |
+| Turbine inlet pressure, main turbine, kg/cm² | 324 519       | 239            | —             |
+| Pressure ratio                               | 1.76          | 1.94           | 1.42          |
+| Turbine inlet temperature, K                 | 735           | 772            | 783           |
+| Turbine efficiency, %                        | 72            | 79             | 74            |
+| Number of turbine stages                     | 1             | 1              | 1             |
+
+| Parameter                         | RD-120                                        | RD-170 | RD-253 |
+| --------------------------------- | --------------------------------------------- | ------ | ------ |
+| Chamber diameter, mm              | 320                                           | 380    | 430    |
+| Characteristic chamber length, mm | 1274                                          | 1079.6 | 999.7  |
+| Chamber area contraction ratio    | 1.74                                          | 1.61   | 1.54   |
+| Nozzle throat diameter, mm        | 183.5                                         | 235.5  | 279.7  |
+| Nozzle exit diameter, mm          | 1895                                          | 1430   | 1431   |
+| Nozzle area ratio                 | 106.7                                         | 36.9   | 26.2   |
+| Thrust chamber length, mm         | 2992                                          | 2261   | 2235   |
+| Nominal combustion temperature, K | 3670                                          | 3676   | 3010   |
+| Rated chamber pressure, kg/cm²    | 166                                           | 250    | 150    |
+| Nozzle exit pressure, kg/cm²      | 0.13                                          | 0.73   | 0.7    |
+| Thrust coefficient, vacuum        | 1.95                                          | 1.86   | 1.83   |
+| Thrust coefficient, SL            | —                                             | 1.71   | 1.65   |
+| Gimbal angle, degree              | Fixed                                         | 8      | Fixed  |
+| Injector type                     | Hot, oxidizer-rich precombustor gas plus fuel |        |        |
+
+| Engine Designation                   | RD-120                        | RD-170                                                                                                 | RD-253           |
+| ------------------------------------ | ----------------------------- | ------------------------------------------------------------------------------------------------------ | ---------------- |
+| Application (number of engines)      | Zenit second stage (1)        | Energia launch vehicle booster (4), Zenit first stage (1), Proton vehicle booster (1), and Atlas V (1) | Proton stage (1) |
+| Oxidizer                             | Liquid oxygen                 | Liquid oxygen                                                                                          | N2O4             |
+| Fuel                                 | Kerosene                      | Kerosene                                                                                               | UDMH             |
+| Number and types of turbopumps (TPs) | One main TP and two boost TPs | One main TP and two boost TPs                                                                          | Single TP        |
+| Thrust control, %                    | Yes                           | Yes                                                                                                    | ±5               |
+| Mixture ratio control, %             | ±10                           | ±7                                                                                                     | ±12              |
+| Throttling (full flow is 100%), %    | 85                            | 40                                                                                                     | None             |
+| Engine thrust (vacuum), kg           | 85,000                        | 806,000                                                                                                | 167,000          |
+| Engine thrust (SL), kg               | —                             | 740,000                                                                                                | 150,000          |
+| Specific impulse (vacuum), sec       | 350                           | 337                                                                                                    | 316              |
+| Specific impulse (SL), sec           | —                             | 309                                                                                                    | 285              |
+| Propellant flow, kg/sec              | 242.9                         | 2393                                                                                                   | 528              |
+| Mixture ratio, O/F                   | 2.6                           | 2.63                                                                                                   | 2.67             |
+| Length, mm                           | 3872                          | 4000                                                                                                   | 2720             |
+| Diameter, mm                         | 1954                          | 3780                                                                                                   | 1500             |
+| Dry engine mass, kg                  | 1125                          | 9500                                                                                                   | 1080             |
+| Wet engine mass, kg                  | 1285                          | 10,500                                                                                                 | 1260             |
+
+
+BLACKHOLES STRUCTURE:
+| Aspecto                         | Nave Avanzada (Frolov, Penrose, etc.)                                                                                       | Motores Merlin y Nave Galileo                                                                                                 |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Marco teórico**               | Soluciones de vacío de Frolov (gravedad), métrica de Kerr y Penrose, formalismo Newman-Penrose para campos gravitacionales. | Ingeniería clásica y aplicada: turbinas, cámaras de combustión, ciclos de combustible, sistemas redundantes.                  |
+| **Propulsión**                  | Propulsión inspirada en "Penrose holes" para manipulación avanzada de gravedad y aceleración extrema.                       | Motores de cohete con turbobombas, combustión de RP-1 y oxígeno líquido, desarrollo iterativo de Merlin 1A, 1B, 1C.           |
+| **Diseño y subsistemas**        | Masa cargada y rotante, generador de campo gravitacional, integración progresiva del prototipo.                             | Sub-sistemas de Galileo: manejo de datos, propulsión convencional, energía RTG, telecomunicaciones, instrumentos científicos. |
+| **Métricas y parámetros clave** | Métricas gravitacionales, geometría del espacio-tiempo, efectos exóticos.                                                   | Empuje (340-480 kN), peso (630 kg Merlin 1C), presión de cámara, impulso específico, masa total de nave (3625 kg Galileo).    |
+| **Aplicación práctica**         | Proyecto teórico/pro                                                                                                        |                                                                                                                               |
+
+
+Merlin 1A
+- Primera versión con tobera de polímero reforzado con fibra de carbono, refrigerada ablativamente.
+- Empuje: 340 kN (76,000 lbf).
+- Solo voló dos veces: 2006 (fallo por fuga de combustible) y 2007 (éxito).
+- Montado en primera etapa Falcon 1.
+- Turbobomba diseñada por Barber-Nichols, con eje de fricción soldado y carcasa de inversión de fundición.
+- Turbina parcial, 20,000 rpm, peso 68 kg.
+
+Merlin 1B
+- Versión mejorada del 1A para Falcon 1.
+- Empuje: 380 kN al nivel del mar, 420 kN en vacío.
+- Isp: 261 s (nivel del mar), 303 s (vacío).
+- Turbina mejorada a admisión completa, potencia 1900 kW (vs 1500 kW).
+- Velocidad de turbina 22,000 rpm.
+- Ignición TEA–TEB, no usada en vuelo, reemplazada por Merlin 1C.
+
+Merlin 1C
+- País: EE.UU., fabricante: SpaceX.
+- Aplicación: motores de primera y segunda etapa Falcon 1 y Falcon 9.
+- Estado: retirado.
+- Empuje: 420 kN nivel mar, 480 kN vacío.
+- Isp: 275 s nivel mar, 304.8 s vacío.
+- Presión cámara: 6.77 MPa.
+- Longitud: 2.92 m, masa seca 630 kg.
+- Ciclo: generador de gas, refrigerado regenerativamente.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Galileo Spacecraft Subsystems
+
+Command and Data Handling (CDH)
+- Tipo: redundante, buses paralelos.
+- Componentes: multiplexores, módulos de alto/bajo nivel, convertidores de potencia, memoria, codificadores, decodificadores.
+- Funciones: decodificar comandos, ejecutar secuencias, gestionar fallos, procesar telemetría, mover datos.
+
+Propulsion
+- Motor principal 400 N, doce propulsores de 10 N.
+- Tanques y tuberías asociadas.
+- Función: propulsión espacial.
+
+Electrical Power
+- Dos generadores termoeléctricos de radioisótopos (RTG) con plutonio-238.
+- Función: generación eléctrica.
+
+Telecommunications
+- Antena de alta y baja ganancia.
+- Función: comunicación con la Tierra.
+
+Instruments
+- Diversos instrumentos científicos para estudiar atmósfera, magnetosfera y lunas de Júpiter.
+
+Deployable Structures
+- Tipos: plegables, mangas, celosías, inflables.
+- Ejemplos: booms desplegables GPX-2 CubeSat, NASA DCB, ACS3.
+
+Metrics
+- Masa total: 3625 kg.
+- Dimensiones: 3.5 m diámetro, 2.7 m altura.
+- Órbita: polar alrededor de Júpiter.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Black Hole Gravity & Spacecraft Design Concepts
+
+- Diagramas Penrose y Kruskal para colapso de campo escalar y formación de agujeros negros.
+- Campos escalares críticos p: subcríticos se expanden, supercríticos forman agujero negro.
+- Límites sub/supercríticos con estructuras globales diferentes: Minkowski vs Schwarzschild.
+- Espaciotiempo con horizontes aparentes y reales, singularidad espaciotemporal excisada.
+- Importancia de coordenadas características para análisis numérico del colapso.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Spherically Symmetric Scalar Field Collapse
+
+- Métrica espaciotemporal conformalmente plana con simetría esférica.
+- Dinámica del campo escalar descrita por acción reducida.
+- Ecuaciones de movimiento para campos auxiliares.
+- Condiciones y restricciones para evolución del colapso.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Kruskal Time and Fuselage-Motor-Konopo-Special
+
+- Combinación de ecuaciones de restricción y evolución para resolver variables iniciales.
+- Discretización de ecuaciones de evolución con operadores covariantes.
+
+| Aspecto                         | Nave Avanzada (Frolov, Penrose, etc.)                                                                                       | Motores Merlin y Nave Galileo                                                                                                 |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Marco teórico**               | Soluciones de vacío de Frolov (gravedad), métrica de Kerr y Penrose, formalismo Newman-Penrose para campos gravitacionales. | Ingeniería clásica y aplicada: turbinas, cámaras de combustión, ciclos de combustible, sistemas redundantes.                  |
+| **Propulsión**                  | Propulsión inspirada en "Penrose holes" para manipulación avanzada de gravedad y aceleración extrema.                       | Motores de cohete con turbobombas, combustión de RP-1 y oxígeno líquido, desarrollo iterativo de Merlin 1A, 1B, 1C.           |
+| **Diseño y subsistemas**        | Masa cargada y rotante, generador de campo gravitacional, integración progresiva del prototipo.                             | Sub-sistemas de Galileo: manejo de datos, propulsión convencional, energía RTG, telecomunicaciones, instrumentos científicos. |
+| **Métricas y parámetros clave** | Métricas gravitacionales, geometría del espacio-tiempo, efectos exóticos.                                                   | Empuje (340-480 kN), peso (630 kg Merlin 1C), presión de cámara, impulso específico, masa total de nave (3625 kg Galileo).    |
+| **Aplicación práctica**         | Proyecto teórico/pro                                                                                                        |                                                                                                                               |

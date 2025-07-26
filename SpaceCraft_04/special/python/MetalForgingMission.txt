@@ -1,0 +1,68 @@
++--------------------------------------------------------------------------------------------------+
+|                      AUTÓNOMOUS METAL FORGING MISSION - DEEP SPACE OPERATIONS                   |
++--------------------------------------------------------------------------------------------------+
+
+[1] ENVIRONMENT VISUALIZATION (SCRIPT DESCRIPTION)
+--------------------------------------------------
+  LOCATION TYPE:             Lagrange Point L1 / Asteroid Belt / G-type Star Orbit
+  HAZARDS PRESENT:           - Intense Solar Radiation (EM + Particle)
+                             - Thermal Shock Zones (up to 3000°C)
+                             - Micrometeorite Fields
+                             - Vacuum + Abrasion Dust
+
+  OPERATIONAL ROBOT:         "FORGE-1"
+  FUNCTION:                  Robotic Plasma/Ion-Based Metal Forge Unit
+  SHIELDING:                 Triple-layer Active Thermal Shield (Carbon–Carbon + RCC + Radiative Foil)
+  PROPULSION:                Xenon Ion Thrusters (Class II – Deep Space Grade)
+  ENERGY SOURCE:             RTG + Deployable Multi-layer Solar Arrays
+  AI CORE:                   FPGA-Controlled Neural Unit (GPT-level Reasoning)
+
+  DEPLOYMENT:                Robot lands autonomously / starts resource scan (spectrometry, LIDAR)
+                             Begins in-situ forging or stockpiling for future human arrival.
+
+[2] MATERIALS INSIDE THE ROBOT BODY (RESISTANT TO FORGING ENVIRONMENT)
+-----------------------------------------------------------------------
+  - Frame:              Titanium-Doped Carbon-Carbon Composite
+  - Insulation:         Silica Aerogel + Multi-Layer Insulation (MLI)
+  - Forge Chamber:      Hafnium Carbide Alloy (melting point > 3900°C)
+  - Actuators:          Radiation-Hardened Piezoelectric + Cryo-Resistant Lubricants
+  - Data Core Shield:   Tungsten–Beryllium Honeycomb (anti-plasma hardening)
+  - Optical Surfaces:   Fused Quartz + Diamond-Like Carbon (DLC) Coatings
+  - Ion Traps:          Boron Nitride + Molybdenum Electrodes
+
+[3] FORGING STATION ORBITAL OUTPOST (STAGING POINT)
+----------------------------------------------------
+  STATION NAME:         "VULCAN NODE A"
+  POSITION:             Near-Mars Halo Orbit / Trojan Asteroid / Exoplanet L2
+  STRUCTURE:
+     - Assembly Bay with Magnetic Containment Shield
+     - Material Storage Crates (vacuum-sealed)
+     - Thermal Dissipation Panels
+     - Docking Port for FORGE-1 and future human capsule
+     - Communication Relay (Quantum Backup Channel)
+
+  CREW FUNCTION (FUTURE):
+     - Metal Refinement & Post-Processing
+     - Heat Shield Construction & Component Fabrication
+     - Robotic Arm Maintenance
+     - Metallurgical Data Transmission
+
+[4] TECHNICAL TERMINOLOGY (ENGLISH)
+-----------------------------------
+  - Ion Plasma Extraction:         Deep-Vacuum Laser Ablation of Mineral Sources
+  - Ion Forge Nozzles:             Multi-Axis Directed Plasma Arcs
+  - Thermal Plasma Furnace:        Magnetically Confined, Self-Stabilized Core
+  - Carbon-Carbon Reinforcement:   Interwoven Hexagonal Fiber Matrices (C–C)
+  - Star-Metal Prospecting:        AI-Driven Mineral Spectroscopy in Low Temp Dwarfs
+
+  TARGET ENVIRONMENTS:
+    • Brown Dwarfs ("failed stars"): rich in lithium, molybdenum, rare-earths
+    • Rogue Planets: large metal cores, low external heating, minimal radiation
+    • Substellar Systems: stable orbit, low surface temp, high extractable mass
+
+  AI TASK EXAMPLES:
+    - Predict structural breakdown from exposure
+    - Adapt forge heat curve to local material thresholds
+    - Launch subdrones to drill, scan, and melt sample rock for plasma extraction
+
++--------------------------------------------------------------------------------------------------+
