@@ -1,0 +1,41 @@
+PROPELLANT INGREDIENTS
+
+A number of relatively common propellant ingredients are listed in Table 13–6 for
+double-base propellants and for composite-type solid propellants in Table 13–7.
+
+TABLE 13–6. Typical Ingredients of Double-Base (DB) Propellants and
+Composite-Modified Double-Base (CMDB) Propellants
+a Several of these, but not all, are added to CMDB propellant.
+
+Type                        Percent   Acronym   Typical Chemicals
+---------------------------------------------------------------------------
+Binder                      30–50     NC        Nitrocellulose (solid), usually plasticized with 20–50% nitroglycerine
+Reactive plasticizer        20–50     NG        Nitroglycerine
+(liquid explosive)                    DEGDN     Diethylene glycol dinitrate
+                                     TEGDN     Triethylene glycol dinitrate
+                                     PDN       Propanediol dinitrate
+                                     TMETN     Trimethylolethane trinitrate
+Plasticizer (organic        0–10      DEP       Diethyl phthalate
+liquid fuel)                          TA        Triacetin
+                                     DMP       Dimethyl phthalate
+                                     EC        Dioctyl phthalate
+                                     DBP       Dibutyl phthalate
+Burn Rate Modifier          Up to 3   PbSa      Lead salicylate
+                                     PbSt      Lead stearate
+                                     CuSa      Copper salicylate
+                                     CuSt      Copper stearate
+Coolant                     >1        OXM       Oxamide
+Opacifier                   Up to 2   C         Carbon black (powder or graphite powder)
+Stabilizer / Antioxidant    > 0.3     DED       Diethyl diphenyl
+                                     EC        Ethyl centralite
+                                     DPA       Diphenyl amine
+Visible Flame Suppressant   0–15      KNO3      Potassium nitrate
+                                     K2SO4     Potassium sulfate
+Lubricant (extruded only)   0–15      C         Graphite
+                                     Al        Wax
+Metal fuel a                0–20      Al        Aluminum, fine powder (solid)
+Crystalline oxidizer a      -         AP        Ammonium perchlorate
+                                     AN        Ammonium nitrate
+Solid explosive crystals a  -         HMX       Cyclotetramethylenetetranitramine
+                                     RDX       Cyclotrimethylenetrinitramine
+                                     NQ        Nitroguanidine

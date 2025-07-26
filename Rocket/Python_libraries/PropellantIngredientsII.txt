@@ -1,0 +1,47 @@
+TABLE 13–7. Typical Ingredients of Composite Solid Propellants
+
+Type                        Percent   Acronym   Typical Chemicals
+---------------------------------------------------------------------------
+Oxidizer (crystalline)      0–70      AP        Ammonium perchlorate
+                                     AN        Ammonium nitrate
+                                     KP        Potassium perchlorate
+                                     KN        Potassium nitrate
+                                     ADN       Ammonium dinitramine
+Metal fuel                  0–30      Al        Aluminum
+                                     Be        Beryllium (experimental only)
+                                     Zr        Zirconium (also burn rate modifier)
+Fuel/Binder (polybutadiene) 5–18      HTPB      Hydroxyl-terminated polybutadiene
+                                     CTPB      Carboxyl-terminated polybutadiene
+                                     PBAN      Polybutadiene acrylonitrile
+                                     PBAA      Polybutadiene acrylic acid
+Fuel/Binder (polyether/polyester)
+                            0–15      PEG       Polyethylene glycol
+                                     PCP       Polycaprolactone polyol
+                                     PGA       Polyglycol adipate
+                                     PPG       Polypropylene glycol
+                                     HTPE      Hydroxyl-terminated polyether
+                                     PU        Polyurethane
+Curing Agent / Crosslinker  0.2–3.5   IPDI      Isophorone diisocyanate
+                                     TDI       Toluene-2,4-diisocyanate
+                                     DDI       Dimeryl diisocyanate
+                                     TMP       Trimethylol propane
+                                     BITA      Trimesoyl-1(2-ethyl)-aziridine
+Burn Rate Modifier          0.2–3     FeO       Ferric oxide
+                                     nBF       n-Butyl ferrocene
+                                     (Various) Oxides of Cu, Pb, Zr, Fe
+Explosive Filler (solid)    0–40      HMX       Cyclotetramethylenetetranitramine
+                                     RDX       Cyclotrimethylenetrinitramine
+                                     NQ        Nitroguanidine
+                                     CL-20     Hexanitrohexaazaisowurtzitane
+Plasticizer / Pot Life Ctrl 0–7       DOP       Dioctyl phthalate
+                                     DOA       Dioctyl adipate
+                                     DOS       Dioctyl sebacate
+                                     DMP       Dimethyl phthalate
+                                     IDP       Isodecyl pelargonate
+Energetic Plasticizer       0–14      GAP       Glycidyl azide polymer
+                                     NG        Nitroglycerine
+                                     DEGDN     Diethylene glycol dinitrate
+                                     BTTN      Butanetriol trinitrate
+                                     TEGDN     Triethylene glycol dinitrate
+                                     TMETN     Trimethylolethane trinitrate
+                                     PCP       Polycaprolactone polymer
